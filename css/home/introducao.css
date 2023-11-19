@@ -6,11 +6,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0 40px;
-
-    box-sizing: border-box;
-    max-width: 1200px;
-    padding: 0 20px;
-    margin: 0 auto;
 }
 .introducao-conteudo{
     align-self: end;
@@ -18,26 +13,15 @@
 }
 .introducao h1{
     margin-bottom: 32px;
-    /* font-family: "Poppins";*/
 }
 .introducao p{
     margin-bottom: 20px;
-    /* font-family: "Roboto";*/
 }
 
 .introducao img{
     height: 100%;
     object-fit: cover;
     border-radius: 4px;  
-}
-
-@media(max-width: 1200px){
-    .introducao h1{
-        font-size: 48px;
-    }
-    .introducao p{
-        font-size: 18px;
-    }
 }
 
 @media(max-width: 800px){
@@ -54,7 +38,6 @@
         padding-bottom: 0;
     }
     .introducao h1{
-        font-size: 32px;
         margin-bottom: 16px;
     }
     .introducao img{
