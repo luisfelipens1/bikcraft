@@ -6,13 +6,13 @@
     <title>Bikcraft - Bicicletas Elétricas</title>
     <link rel="stylesheet" href="./css/style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:wght@400;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:wght@400;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
 </head>
 <body>
     <header class="header-bg">
-        <div class="header">
+        <div class="header container">
              <a href="./">
                 <img src="./img/bikcraft.svg" alt="Bikcraft" width="136" height="32">
             </a>
@@ -34,7 +34,7 @@
     </header>
 
     <main class="introducao-bg">
-        <div class="introducao">
+        <div class="introducao container">
             <div class="introducao-conteudo">
                 <h1 class="cor-0 font-1-xxl">
                     Bicicletas feitas sob medida<span class="cor-p1">.</span>
@@ -48,5 +48,35 @@
             </div>
         </div>
     </main>
+
+    <article class="bicicletas-lista" aria-labelledby="bicicletas-titulo">
+        <h2 class="font-1-xxl container" id="bicicletas-titulo">escolha a sua<span class="cor-p1">.</span></h2>
+
+        <ul>
+            <li>
+                <a href="./bicicletas/magic.html">
+                    <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta de alta perfomance para atletas">
+                    <h3 class="font-1-xl">Magic Might</h3>
+                    <span class="font-2-m cor-8">R$ 2499</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="./bicicletas/nimbus.html">
+                    <img src="./img/bicicletas/nimbus-home.jpg" alt="A bibicleta mais moderna e tecnológica">
+                    <h3 class="font-1-xl">Nimbus Stark</h3>
+                    <span class="font-2-m cor-8">R$ 4999</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="./bicicletas/nebula.html">
+                    <img src="./img/bicicletas/nebula-home.jpg" alt="Versátil para todas as situações">
+                    <h3 class="font-1-xl">Nebula Cosmic</h3>
+                    <span class="font-2-m cor-8">R$ 3999</span>
+                </a>
+            </li>
+        </ul>
+    </article>
 </body>
 </html>
